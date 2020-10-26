@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(fondo.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+#login .container #login-row #login-column #login-box{
+    margin-top: 40px;
+    max-width: 600px;
+    height: 300px;
+    border-radius: 4px;
+}
