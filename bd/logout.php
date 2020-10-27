@@ -2,5 +2,6 @@
 session_start();
 unset($_SESSION["s_usuario"]);
 session_destroy();
-header("Location:../Reto/index.php");
+header("Location:../index.php");
+die();
 ?>

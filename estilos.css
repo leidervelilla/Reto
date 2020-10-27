@@ -9,9 +9,36 @@ body{
     background-color: linear-gradient(to right, #11998e, #38ef7d);
 }
 
+.jum {
+    display: flex !important;
+    flex-wrap: wrap;
+    max-width: 200% !important;
+}
+
+.float-right {
+    margin-top: 30px;
+}
+
+.date {
+    width: 80% !important;
+}
+
 #login .container #login-row #login-column #login-box{
     margin-top: 40px;
     max-width: 600px;
     height: 300px;
     border-radius: 4px;
 }
+
+.botonF1{
+    width:60px;
+    height:40px;
+    border-radius:10%;
+    right:0;
+    top:0;
+    position:absolute;
+    margin-right:16px;
+    margin-top:16px;
+    border:none;
+    font-size:20px;
+  }
