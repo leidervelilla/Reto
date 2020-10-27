@@ -18,11 +18,15 @@ if($_SESSION["s_usuario"] === null){
         <link rel="stylesheet" href="http://localhost/Reto/Vistas/bootstrap-4.5.3-dist/css/sweetalert2.min.css"> 
     </head>
     <body>
+        <a class="botonF1 btn btn-info" href="http://localhost/Reto/home.php" role="button">Salir</a>
 
         <div class="container contenedor" style="margin-top:60px;">
             <div class="row justify-content-center">
                 <div class="jumbotron jum">
-
+                    <div class="col-lg-12">
+                        <h1 class="display-4 text-center">Inventario</h1>
+                        <hr class="my-4">
+                    </div>
                 </div>
             </div>
         </div>
